@@ -15,6 +15,7 @@ Processing Code
 Two lightbulbs and center one is functional. When the mouse touches the center  lightbulb, the lightbulb turns red and shrinks. When the mouse moves out of the lightbulb's border, the lightbulb returns to its original size.
 
 </p>
+<img width="617" height="652" alt="image" src="https://github.com/user-attachments/assets/e4b8c403-d0b1-480e-bccf-f21b71d77bbf" />
 
 
 
