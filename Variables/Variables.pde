@@ -37,21 +37,28 @@ void setup()// equivalent to start in unity, begin in unreal
 void draw()//Equivalent to update in Unity
 {
   background(250,250,224);
+  noStroke();
   
-  int rnd = (int)random(20, 250); //randomises this interger between 20 and 249
+  int rnd = (int)random(20, 250); //randomises between 20 and 249
   fill(rnd, rnd * 0.2, rnd * 0.3);
-  
-  
   ellipse(100, 200, 60, 60);  
-  ellipse(400, 200, 120, 120);
-  fill(0,0,0);
-  ellipse(400, 200, 60, 60);
+  ellipse(395, 200, 120, 120);
+  
+  fill(0);
+  ellipse(395, 200, 60, 60);
   quad(125, 400, 200, 200, 276, 200, 325, 400);
+  triangle(50, 140, 140, 190, 150, 160);
+  triangle(300, 140, 440, 100, 310, 190);
+  
   fill(250);
   triangle(200, 200, 215, 225, 235, 200);
   triangle(245, 200, 260, 225, 275, 200);
   
-    
+  fill(0);
+  String r = "ROAR!!!";
+  textSize(64);
+  text(r, 150 , 60);
+  
   /*
   background(0,70,90);
   fill(255,255,224);
