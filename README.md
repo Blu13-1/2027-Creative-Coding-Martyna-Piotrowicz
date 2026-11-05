@@ -2,7 +2,8 @@
 
 Processing Code
 
-<h1 Variables </h1>
+<h2> Variables </h2>
+  
   <p>
     Common Variables ; string, interger, float and boolean
   </p>
