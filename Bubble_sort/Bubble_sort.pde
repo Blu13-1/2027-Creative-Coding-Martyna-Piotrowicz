@@ -3,16 +3,19 @@
 Bubble[] b = new Bubble[100];
 void setup()
 {
-  
   size(500,500);
  for(int i = 0; i < b.length; i ++)
  {
-   b[i] = new Bubble((int) random(0, width), (int)random(0, height), (int)random(2,50));
- }
-  
-  
+   b[i] = new Bubble((int) random(0, width), (int)random(0, height), (int)random(2,50),i);
+ } 
+ 
 }
 
+
+void mouseReleased() 
+{
+  b[1] = new Bubble(mouseX,mouseY,(int)random(2,50),1);
+}
 void draw()
 {
  background(135, 169, 107);

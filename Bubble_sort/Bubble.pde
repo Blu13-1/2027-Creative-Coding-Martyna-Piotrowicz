@@ -2,15 +2,15 @@
 
 class Bubble 
 {
-  
+  int index;
   PVector pos;
   int size;
   int posoffset;
   int posx;
-  Bubble(int x, int y, int size)
+  Bubble(int x, int y, int size, int index)
   {
     pos = new PVector(x,y);
-    
+    this.index = index;
     this.size = size;
   }
   
@@ -21,8 +21,13 @@ class Bubble
   {
     posoffset ++;
     pos.y --;
+    if (index == 1)
+    {
+     pos.y -= 2; 
+    }
     
-    if (pos.y < (0 - size)){
+    if (pos.y < (0 - size))
+    {
       pos.y = height + size;
     
     }
