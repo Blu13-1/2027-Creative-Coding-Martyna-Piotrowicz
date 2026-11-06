@@ -1,7 +1,7 @@
 # 2026/2027 Creative Coding Martyna Piotrowicz
 
 In this project, I used Processing software with Java, to explore basic principles in coding.
-
+<h1> Part One </h1>
 <h2> Variables </h2>
   <p>
     Here I explored common variables such as the string, float, intergers and booleans. In this "Variables" sketch I used the string for text, interger for random numbers. Using such variables I was able to achieve this along with different shapes such as ellipses, triangles and rectangles.
@@ -30,3 +30,10 @@ In this project, I used Processing software with Java, to explore basic principl
     In Image and Sound sketch I have explored how to add images and sound libraries. I have added a circle to test the sound input and each time the code captures the sound the circle grows in size, when the sound stops the circle returns to its original size.
 </p>
 <img width="608" height="641" alt="image" src="https://github.com/user-attachments/assets/7d373e5f-58bb-494a-a837-ae77ee1aa772" />
+
+<h1>Part Two</h1>
+<h2> Interactive Image through Sound and Particles</h2>
+<p>
+      For this project I have used all the knowledge mentioned above and implemented here. I have used basic variables, if statements, iterations and arrays in this code, and a class for fire dust particles. I have added variables for time and alphas for the period of time the dust can appear and disappear, and the positions they start and end the visibility. I have used two images; one with clear visibilty, one with less opacity. When the code detects sound at a certain decibel the image is then replaced by the fire that is more visible. I have also drawn a border, matching the colours of the fire theme. 
+</p>
+<img width="745" height="781" alt="image" src="https://github.com/user-attachments/assets/13ea402a-950c-4a16-92fb-1e8fc4a75c75" />
