@@ -33,7 +33,7 @@ void draw()
   {
   size++;
   }
-   else if(size < 200)
+   else if(size > 100)
   {
   size --;
   }
